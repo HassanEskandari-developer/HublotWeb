@@ -1,0 +1,713 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 130vh;
+  }
+}
+.slider ._bg {
+  background-color: rgba(0, 0, 0, 0.182);
+  width: 100%;
+  height: 100vh;
+}
+.slider > .slider-1 {
+  background-image: url(../style/img/background-summer-sky-blue.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.slider > .slider-1 > ._bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .slider > .slider-1 > ._bg {
+    height: 130vh;
+  }
+}
+.slider > .slider-1 > ._bg > ._Mtn {
+  margin-right: 50px;
+  margin-top: 200px;
+}
+@media screen and (max-width: 768px) {
+  .slider > .slider-1 > ._bg > ._Mtn {
+    display: none;
+  }
+}
+.slider > .slider-1 > ._bg > ._Mtn > P {
+  margin-right: 300px;
+  font-size: 30px;
+  color: white;
+}
+.slider > .slider-1 > ._bg > ._Mtn > h2 {
+  width: 300px;
+  font-size: 50px;
+}
+.slider > .slider-1 > ._bg > section {
+  justify-content: center;
+  align-items: center;
+}
+.slider > .slider-1 > ._bg > section > figure {
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .slider > .slider-1 > ._bg > section > figure > img {
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  .slider > .slider-1 > ._bg > section > figure > img {
+    height: 650px;
+    margin-top: 50px;
+  }
+}
+
+#_btn_1 {
+  background-color: white;
+}
+#_btn_1 > a {
+  color: #262626;
+}
+
+._btn {
+  background-color: #171717;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+._btn .link {
+  position: relative;
+  z-index: 900;
+}
+._btn .link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(63, 63, 63, 0.651);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+  z-index: 800;
+}
+._btn .link:hover::after {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  ._btn {
+    height: 300px;
+  }
+}
+._btn > div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+._btn > div > button {
+  margin-top: 50px;
+  background-color: #171717;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 50px;
+}
+._btn > div > button > a {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.exprlor {
+  background-color: #171717;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .exprlor {
+    height: 170vh;
+  }
+}
+.exprlor > div {
+  justify-content: center;
+  align-items: center;
+}
+.exprlor > div > div {
+  justify-content: center;
+  align-items: center;
+}
+.exprlor > div > div > h2 {
+  color: white;
+  font-size: 50px;
+  margin-top: 40px;
+}
+.exprlor > div > div > figure {
+  margin-top: 100px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.exprlor > div > div > figure:hover {
+  transform: scale(1.2);
+}
+
+.youtob {
+  background-color: #171717;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .youtob {
+    margin-top: 2px;
+  }
+}
+.youtob > video {
+  padding: 0;
+  margin: 0;
+}
+.youtob > video > source {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+._bgimg {
+  margin-top: 20px;
+}
+
+._box {
+  margin-top: -120px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  ._box {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: -70px;
+    z-index: 10;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._box > p {
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  ._box > p {
+    font-size: 40px;
+    width: 1200px;
+    color: black;
+  }
+}
+._box > h4 {
+  font-size: 25px;
+  color: black;
+  border-bottom: 0.5PX solid red;
+  margin-top: 5px;
+}
+@media screen and (min-width: 769px) {
+  ._box > h4 {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}
+._box > button {
+  width: 200px;
+  height: 50px;
+  border: 0.5px solid black;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 900;
+}
+._box > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(63, 63, 63, 0.651);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+  z-index: 800;
+}
+._box > button:hover::after {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  ._box > button {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    margin-left: 15px;
+  }
+}
+._box > button > a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  ._box > button > a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.both {
+  display: flex;
+  margin-top: 50px;
+  height: 100vh;
+  width: 98%;
+}
+@media screen and (max-width: 768px) {
+  .both {
+    display: block;
+  }
+}
+.both > .both_1 {
+  margin-right: 10px;
+}
+.both > .both_1 > figure {
+  width: 50%;
+}
+.both > .both_1 > figure > img {
+  height: 700px;
+}
+@media screen and (max-width: 768px) {
+  .both > .both_1 > figure > img {
+    width: 530px;
+    margin-left: 10px;
+  }
+}
+.both > .both_1 > div {
+  width: 70%;
+  height: 250px;
+  margin-top: -110px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  margin-left: 80px;
+}
+.both > .both_1 > div > h4 {
+  font-size: 25px;
+  margin-left: 50px;
+  border-bottom: 0.5PX solid red;
+  margin-top: 5px;
+}
+.both > .both_1 > div > p {
+  margin-left: 50px;
+  color: black;
+  margin-top: 20px;
+}
+.both > .both_1 > div > button {
+  width: 200px;
+  height: 50px;
+  border: 0.5px solid black;
+  margin-left: 50px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 900;
+}
+.both > .both_1 > div > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(63, 63, 63, 0.651);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+  z-index: 800;
+}
+.both > .both_1 > div > button:hover::after {
+  width: 100%;
+}
+.both > .both_1 > div > button > a {
+  text-decoration: none;
+  color: black;
+}
+.both .both_2 > figure {
+  width: 50%;
+}
+.both .both_2 > figure > img {
+  height: 700px;
+}
+@media screen and (max-width: 768px) {
+  .both .both_2 > figure > img {
+    width: 530px;
+    margin-left: 10px;
+  }
+}
+.both .both_2 > div {
+  width: 70%;
+  height: 250px;
+  margin-top: -110px;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  margin-left: 80px;
+}
+.both .both_2 > div > h4 {
+  font-size: 25px;
+  margin-left: 50px;
+  border-bottom: 0.5PX solid red;
+  margin-top: 5px;
+}
+.both .both_2 > div > p {
+  margin-left: 50px;
+  color: black;
+  margin-top: 20px;
+}
+.both .both_2 > div > button {
+  width: 200px;
+  height: 50px;
+  border: 0.5px solid black;
+  margin-left: 50px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 900;
+}
+.both .both_2 > div > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(63, 63, 63, 0.651);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+  z-index: 800;
+}
+.both .both_2 > div > button:hover::after {
+  width: 100%;
+}
+.both .both_2 > div > button > a {
+  text-decoration: none;
+  color: black;
+}
+
+.tabligh {
+  margin-top: 200px;
+  background-color: #171717;
+  height: 150vh;
+}
+@media screen and (max-width: 768px) {
+  .tabligh {
+    margin-top: 150vh;
+    height: 210vh;
+  }
+}
+.tabligh > h2 {
+  color: white;
+}
+.tabligh > div {
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div {
+    display: block;
+  }
+}
+.tabligh > div .last_1 {
+  width: 33%;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.tabligh > div .last_1 > figure > img {
+  width: 480px;
+  height: 600px;
+}
+.tabligh > div .last_1 > h4 {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div .last_1 > h4 {
+    margin-left: 50px;
+    width: 200px;
+  }
+}
+.tabligh > div .last_1 > p {
+  color: white;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div .last_1 > p {
+    margin-left: 50px;
+  }
+}
+.tabligh > div .last_1 > P {
+  color: white;
+  margin-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div .last_1 > P {
+    margin-left: 50px;
+    font-size: 25px;
+    width: 400px;
+  }
+}
+.tabligh > div .last_1 > button {
+  background-color: #171717;
+  position: relative;
+  border: none;
+  margin-top: 30px;
+}
+.tabligh > div .last_1 > button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  transition: 1s;
+}
+.tabligh > div .last_1 > button:hover::after {
+  width: 0;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div .last_1 > button {
+    margin-left: 50px;
+    width: 150px;
+  }
+}
+.tabligh > div .last_1 > button > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.tabligh > div .last_2 {
+  width: 33%;
+  margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div .last_2 {
+    display: none;
+  }
+}
+.tabligh > div .last_2 > figure > img {
+  width: 480px;
+  height: 600px;
+}
+.tabligh > div .last_2 > h4 {
+  color: white;
+}
+.tabligh > div .last_2 > p {
+  color: white;
+  margin-top: 10px;
+}
+.tabligh > div .last_2 > P {
+  color: white;
+  margin-top: 15px;
+}
+.tabligh > div .last_2 > button {
+  background-color: #171717;
+  margin-top: 30px;
+  position: relative;
+  border: none;
+}
+.tabligh > div .last_2 > button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  transition: 1s;
+}
+.tabligh > div .last_2 > button:hover::after {
+  width: 0;
+}
+.tabligh > div .last_2 > button > a {
+  text-decoration: none;
+  color: white;
+}
+.tabligh > div .last_3 {
+  width: 33%;
+  margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  .tabligh > div .last_3 {
+    display: none;
+  }
+}
+.tabligh > div .last_3 > figure > img {
+  width: 480px;
+  height: 600px;
+}
+.tabligh > div .last_3 > h4 {
+  color: white;
+}
+.tabligh > div .last_3 > P {
+  color: white;
+  margin-top: 15px;
+}
+.tabligh > div .last_3 > button {
+  background-color: #171717;
+  margin-top: 120px;
+  position: relative;
+  border: none;
+}
+.tabligh > div .last_3 > button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  transition: 1s;
+}
+.tabligh > div .last_3 > button:hover::after {
+  width: 0;
+}
+.tabligh > div .last_3 > button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.keep {
+  width: 100%;
+  height: 300px;
+  background-color: #262626;
+}
+.keep > div {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.keep > div > h2 {
+  color: white;
+  margin-left: 50px;
+}
+.keep > div > p {
+  color: white;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.keep > div > button {
+  margin-left: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 900;
+}
+.keep > div > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(63, 63, 63, 0.651);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+  z-index: 800;
+}
+.keep > div > button:hover::after {
+  width: 100%;
+}
+.keep > div > button > a {
+  color: white;
+}
+
+footer {
+  width: 100px;
+  background-color: #171717;
+  height: 300px;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    height: 500px;
+  }
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+footer > div > h2 {
+  text-align: center;
+  font-size: 40px;
+}
+footer > div {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  footer > div {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+footer > div > p {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  footer > div > p {
+    font-size: 10px;
+  }
+}
+footer > div {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  footer > div {
+    margin-top: 70px;
+  }
+}
+footer > div > i {
+  font-size: 20px;
+}/*# sourceMappingURL=master.css.map */
